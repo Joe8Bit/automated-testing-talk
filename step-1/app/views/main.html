@@ -1,0 +1,18 @@
+<h1>Let's do some math!</h1>
+
+<p ng-show="error" id="error">{{error}}</p>
+
+<input type="text" ng-model="first" id="first">
+
+<select name="operation" id="operation" ng-model="operation">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="/">/</option>
+  <option value="*">*</option>
+</select>
+
+<input type="text" ng-model="second" id="second">
+
+<button ng-click="performOperation()" id="go">Math!</button>
+
+<h3>Total: <span id="total">{{total}}</span></h3>
