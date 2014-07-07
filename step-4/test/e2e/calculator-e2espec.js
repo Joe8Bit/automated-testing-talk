@@ -20,7 +20,7 @@ describe('E2E: The calculator', function () {
     });
   });
 
-  it('should correctly multiple two numbers together', function () {
+  it('should correctly multiply two numbers together', function () {
     setOperation('*', function () {
         runOperation(6, 2, function (result) {
             expect(result).toBe('12');
@@ -28,7 +28,7 @@ describe('E2E: The calculator', function () {
     });
   });
 
-  it('should correctly multiple two numbers together', function () {
+  it('should correctly divide two numbers together', function () {
     setOperation('/', function () {
         runOperation(6, 2, function (result) {
             expect(result).toBe('3');
