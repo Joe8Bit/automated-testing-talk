@@ -15,7 +15,7 @@ angular.module('testingAppApp')
 
     $scope.performOperation = function () {
       // To keep this simple, we'll use a switch statement instead of some funky
-      // evalulations of mathmatical expressions
+      // evalulations of mathmatical expressions, remember, eval() is evil
       switch ($scope.operation) {
         case '+':
           $scope.total = $scope.first + $scope.second;
