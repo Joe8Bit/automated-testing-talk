@@ -5,6 +5,8 @@ This repo contains the walk through contents of a talk based on automated testin
 ### Step 1 - The good path
 The implementation of a basic calculator in Angular and 100% unit test coverage of unit tests. According to the 'Step 1' user story as defined in `user_story.md`.
 
+* View type bug.
+
 ### Step 2 - The bad path
 The implementation of a basic calculator in Angular, with 100% unit test coverage of both the good and bad path. According to the 'Step 2' user story as defined in `user_story.md`.
 
